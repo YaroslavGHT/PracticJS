@@ -1,0 +1,24 @@
+
+.backdrop{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    background-color: gray;
+    top: 0;
+    left: 0;
+}
+.backdrop.is-hidden{
+    display: none;
+}
+.modal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: 500px;
+    height: 500px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
